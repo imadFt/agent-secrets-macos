@@ -41,9 +41,11 @@ scripts/secret import .env   # then delete .env and rotate exposed keys
 
 When macOS asks for confirmation, click **Allow**, not **Always Allow**.
 
-## Install as a Claude skill
+## Install
 
-Copy the `agent-secrets-macos` folder into your skills directory (for Claude Code: `~/.claude/skills/`), or upload the `.skill` file in Claude settings.
+**Claude Code:** copy the whole `agent-secrets-macos` folder (SKILL.md and scripts/) into `~/.claude/skills/`.
+
+**Claude app:** download `agent-secrets-macos.skill` from the latest release, then upload it in Claude's skills settings.
 
 ## Limits
 
